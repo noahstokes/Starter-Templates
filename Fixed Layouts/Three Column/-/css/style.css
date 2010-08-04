@@ -1,0 +1,82 @@
+body  {
+	margin: 0;
+	padding: 0;
+	line-height: 1.22em;
+	font: normal 12px/18px Helvetica, Arial, Verdana, sans-serif;
+	color: #333;
+	background: #222;
+}
+
+/* Reset Rules
+------------------------------- */
+
+ol,ul {
+	list-style:none;
+	margin: 0;
+	padding: 0;
+}
+
+h1,h2,h3,h4,h5,h6,p {
+	margin: 0;
+	padding: 0;
+}
+
+/* Layout Rules
+------------------------------- */
+
+#container  {
+	width: 960px;
+	margin: 0 auto;
+}
+
+/* Header Rules
+------------------------------- */
+
+#header {
+	width: 960px;
+	height: 170px;
+	margin: 0;
+	background: #aaa;
+}
+
+/* Nav Rules
+------------------------------- */
+
+#nav {
+	width: 560px;
+	height: 52px;
+	background: #bbb;
+}
+
+/* Content Rules
+------------------------------- */
+
+#content {
+	margin: 0 200px;
+	background: #ddd;
+	height: 400px;
+}
+
+#content_left {
+	float: left;
+	width: 200px;
+	background: #ccc;
+	height: 400px;
+}
+
+#content_right {
+	float: right;
+	width: 200px;
+	background: #ccc;
+	height: 400px;
+}
+
+/* Footer Rules
+------------------------------- */
+
+#footer {
+	clear: both;
+	width: 960px;
+	height: 30px;
+	background: #eee;
+}
